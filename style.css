@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    font-family: roboto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: auto;
+}
+
+.headerText h5{
+    height: px;
+    margin-top: 16px;
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+
+.navButtons{
+    display: flex;
+    align-items: center;
+}
+
+.header .headerText{
+    color: #F9FAF8;
+    font-size: 24px;
+    flex-grow: 4;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.initialView{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.info h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.info p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0px;    
+    width: 117px;
+    height: 32px;
+    font-family: roboto;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.imgInfo{
+    width: auto;
+    height: 220px;
+}
+
+.container3{
+    background-color: #1F2937;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+ul a{
+
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #1F2937;
+}
