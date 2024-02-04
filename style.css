@@ -70,16 +70,72 @@ button{
     margin-top: 10px;
 }
 
-.imgInfo{
+.imgWelcome{
     width: auto;
     height: 220px;
 }
 
-.container3{
-    background-color: #1F2937;
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subinfoContainer{
+    width: 150px;
+    text-align: center;
+}
+
+.imgRounded{
+    width: 150px;
+    height: 150px;
+    border-radius: 19px;
+    border: 5px solid #3882F6;
+    align-items: center;
+}
+
+.imgInfo{
+    width: 150px;
+    border-radius: 16px;
+    height: 150px;
+}
+
+.container2 h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+
+
+.container3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+blockquote{
+    width: 950px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
 
 ul{
     list-style-type: none;
